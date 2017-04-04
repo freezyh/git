@@ -10,6 +10,28 @@
    git config --global user.email "2294963715@qq.com"
 
 4. 生成密钥 （[官网](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)） <br>
-   输入自己的邮箱 
-   ssh-keygen -t rsa -b 4096 -C "2294963715@qq.com"
-
+   输入自己的邮箱 <br>
+   ssh-keygen -t rsa -b 4096 -C "2294963715@qq.com" <br>
+ `  
+$ ssh-keygen -t rsa -b 4096 -C "2294963715@qq.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/admin/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/admin/.ssh/id_rsa.
+Your public key has been saved in /c/Users/admin/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:C7ZctK3+SbI7BczLyX9rJgsWK1WAOScnuH39HWJI81k 2294963715@qq.com
+The key's randomart image is:
++---[RSA 4096]----+
+|     . o.        |
+|    . * o.o   E  |
+|     o O.o.+ o   |
+|    . ..=+o = .  |
+|      o+S+.o o . |
+|     o ===. . .  |
+|      + Bo.      |
+|       +.=o.+    |
+|        +++*..   |
++----[SHA256]-----+
+`
