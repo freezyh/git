@@ -22,5 +22,13 @@
 5. 登录你的github，点击头像的下箭头，Settings,SSH and GPG keys, New SSH key,输入title,key的输入框粘贴前面复制的，最后点击Add SSH key,这样就完成了基本的配置。
 
 ## 二、下载自己的文件
-1.很多时候我们可以下载别人开源的项目代码，也经常上传、下载自己的分享，这里简单介绍如何下载自己的文件,我们可以在github新建一个仓库，至于如何新建可以搜索【github 新建仓库】，说lowd点就是新建文件夹，本文的文件夹是git。新建完以后有个Clone or download按钮，我们一般下载自己的都用use SSH <br>
+1. 很多时候我们可以下载别人开源的项目代码，也经常上传、下载自己的分享，这里简单介绍如何下载自己的文件,我们可以在github新建一个仓库，至于如何新建可以搜索【github 新建仓库】，说lowd点就是新建文件夹，本文的文件夹是git。新建完以后有个Clone or download按钮，我们一般下载自己的都用use SSH <br>
   复制链接 https://github.com/freezyh/git.git <br>
+2. 打开cmd命令，本文把下载的文件放到c:\gitdown， 所以命令行输入的是：<br>
+   git clone https://github.com/freezyh/git.git   <br>
+   实际效果：<br>
+   c:\gitdown>git clone https://github.com/freezyh/git.git   <br>
+   然后我们就可以修改自己的资料了，比如本文修改README.md文件，修改完以后如何提交呢？<br>
+3. 下载以后进入目录，本文的是git,如果你命名的就cd 你命名的，本文的是前面的cmd命令拉取下来文件以后继续操作cmd git来进入目录。<br>
+   提交文件之前，我们现在先看下资料的状态<br>
+   使用命令git status <br>
