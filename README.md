@@ -32,3 +32,15 @@
 3. 下载以后进入目录，本文的是git,如果你命名的就cd 你命名的，本文的是前面的cmd命令拉取下来文件以后继续操作cmd git来进入目录。<br>
    提交文件之前，我们现在先看下资料的状态<br>
    使用命令git status <br>
+   能看到红色字体标注的modified:   README.md <br>
+   知道就修改了就行了，不是每次都需要看 <br>
+4. 我们要把修改的文件提交需要使用git add '文件名' <br>
+    本文是git add README.md    <br>
+    执行了命令文件还是没有成功提交到github的，我们可以继续使用git status命令查看形状和提示
+    你会发现modified:   README.md 变绿色了，其他先不管什么意思<br>
+    到github查看README.md文件并没有修改，那就说明没有上传成功，我们需要继续如下操作。
+5. git commit -m "修改备注信息" <br>
+    我们修改了以后需要备注修改了哪些内容，以便以后恢复或者其他人参考 <br>
+    本文：git commit -m "fix"  <br>
+    有了这一步，文件还是没有提交到github，我们还要继续下一步。
+6. git push 这一步就成功提交啦。
