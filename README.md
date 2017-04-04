@@ -21,3 +21,6 @@
    用编辑器打开位于c/Users/admin/.ssh/id_rsa.pub的文件,复制就行了<br>
 5. 登录你的github，点击头像的下箭头，Settings,SSH and GPG keys, New SSH key,输入title,key的输入框粘贴前面复制的，最后点击Add SSH key,这样就完成了基本的配置。
 
+## 二、下载自己的文件
+1.很多时候我们可以下载别人开源的项目代码，也经常上传、下载自己的分享，这里简单介绍如何下载自己的文件,我们可以在github新建一个仓库，至于如何新建可以搜索【github 新建仓库】，说lowd点就是新建文件夹，本文的文件夹是git。新建完以后有个Clone or download按钮，我们一般下载自己的都用use SSH <br>
+  复制链接 https://github.com/freezyh/git.git <br>
