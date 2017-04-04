@@ -11,6 +11,5 @@
 
 4. 生成密钥 （[官网](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)） <br>
    输入自己的邮箱 
-   
    ssh-keygen -t rsa -b 4096 -C "2294963715@qq.com"
 
