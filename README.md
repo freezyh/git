@@ -56,6 +56,10 @@ git add -u .  <br>
  git add -A .  <br>
 -A == --all 表示将所有的已跟踪的文件的修改与删除和新增的未跟踪的文件都添加到暂存区。
 
+## 四、忽略不需要上传的文件夹
+打开Git Bash 输入touch .gitignore <br>
+生成 .gitignore，打开这个文件输入你想要忽略的文件夹，比如忽略node_modules这个文件夹，我们就需要在.gitignore输入/node_modules/，当然有更多过滤的规则，后续补上。。
+
 
 
 
