@@ -85,7 +85,18 @@ git reflog <br>
 git reset --hard XXXXXX<br>
 git push orighin master <br>
 
+###checkout
+git checkout -- file 可以丢弃工作区的修改
 
+## 六、新建与合并分支branch
+通常开发的时候，大家都是从 master 做一个分支 branch 出去，最后再 merge 回 master，确保大家都是使用最新的master
+
+git branch 查看目前分支 <br>
+
+创建分支<br>
+git branch zyh <br>
+git checkout zyh <br>
+在分支zyh分支上进行的任何修改操作，然后执行git add 和git commit合并到master分支上<br>
 
 
 
