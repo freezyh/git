@@ -60,7 +60,31 @@ git add -u .  <br>
 打开Git Bash 输入touch .gitignore <br>
 生成 .gitignore，打开这个文件输入你想要忽略的文件夹，比如忽略node_modules这个文件夹，我们就需要在.gitignore输入/node_modules/，当然有更多过滤的规则，后续补上。。
 
-## 五、
+## 五、历史记录
+git log <br>
+按小写q可以退出<br>
+
+如果觉得界面不好看可以使用下列指令<br>
+git log --pretty=oneline <br>
+
+Git中，使用HEAD表示目前的版本 <br>
+git reset --hard HEAD <br>
+
+如果现在把目前版本退回到上一个版本 <br>
+git reset --hard HEAD~1   <br>
+上上一个版本就是HEAD~2 <br>
+git reset --hard HEAD~2 <br>
+
+如果要指定回到某个特定版本：<br>
+git reset --hard XXXXXXX<br>
+版本号没必要全部都写，写前几位就可以了,git会自动去找 <br>
+git push -f -u origin master <br>
+
+当你退回到某个版本的时候，想恢复到之前的新版本 <br>
+git reflog <br>
+git reset --hard XXXXXX<br>
+git push orighin master <br>
+
 
 
 
