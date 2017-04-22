@@ -60,6 +60,7 @@ git add -u .  <br>
 打开Git Bash 输入touch .gitignore <br>
 生成 .gitignore，打开这个文件输入你想要忽略的文件夹，比如忽略node_modules这个文件夹，我们就需要在.gitignore输入/node_modules/，当然有更多过滤的规则，后续补上。。
 
+## 五、
 
 
 
