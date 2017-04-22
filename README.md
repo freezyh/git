@@ -97,6 +97,16 @@ git branch 查看目前分支 <br>
 git branch zyh <br>
 git checkout zyh <br>
 在分支zyh分支上进行的任何修改操作，然后执行git add 和git commit合并到master分支上<br>
+git checkout master切换到master的分支底下。
+git merge zyh指令用于(zyh分支)指定分支到目前分支(master)底下。
+
+如果非常順利，git merge的信息里出現Fast-forward，合併速度非常快
+不是每次合并都会出现Fast-forward，很多时候会出现冲突CONFLICT
+
+如果顺利合并完成后，可以删除zyh分支<br>
+git branch -d zyh <br>
+
+dddddd
 
 
 
